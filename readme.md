@@ -12,3 +12,23 @@
 ## v-for 循环遍历小数组 在组件中循环要绑定 key 循环渲染
 ## 设置 img 标签 将得到的 response.body.message 绑定在 img 的 src中
 <!-- 加上 toast 组件 提示 有没有获取数据成功 -->
+
+## news 页面的添加
+## 点击首页的小图标会自动跳转, 在当前home 页面中的 a 标签改为 routerlink 然后 配置路由
+1. 构造页面   -- 使用 mui 中的 media list 来绘制页面
+2. 通过 vue -resource 将data 渲染出来
+
+## 定义全局的过滤器 过滤时间
+## 实现列表点击 跳转到详情 -- 将列表的每一项都改为 router-link 并在跳转的时候提供唯一的标识符
+## 创建组件页面 newsInfo.vue  -> 配置路由
+
+## 单独封装一个 comment 子组件 
+1. 先创建一个单独的 comment 组件模板
+2. 在需要使用comment组件的地方导入 (手动dao)
+
+## 获取所有的评论数据 渲染
+
+
+
+
+
